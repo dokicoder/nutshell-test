@@ -7,5 +7,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://dokicoder.github.io',
+	base: 'nutshell-test',
 	integrations: [mdx(), sitemap()],
 });
